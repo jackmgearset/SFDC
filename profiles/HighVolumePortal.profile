@@ -1287,14 +1287,14 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account %28Sales%29 Layout</layout>
-        <recordType>Account.Jacks_Record_Type</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Team__c-Team Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Jacks_Record_Type</recordType>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
