@@ -13,11 +13,6 @@
         <apexClass>EmailUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
-    
-    
-    
-    
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -1153,7 +1148,6 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Active__c</field>
@@ -1164,7 +1158,6 @@
         <field>Account.CustomerPriority__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.NumberofLocations__c</field>
@@ -1195,6 +1188,11 @@
     <readable>false</readable>
     <field>Account.Account_Demo_Picklist__c</field>
 </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.SalesDemoField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
