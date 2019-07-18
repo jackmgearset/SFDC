@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
     <userLicense>Salesforce</userLicense>
     <classAccesses>
@@ -13,14 +13,8 @@
         <apexClass>EmailUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>ChangePasswordController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ChangePasswordControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
+    
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -1196,11 +1190,7 @@
     <readable>false</readable>
     <field>Account.Account_Demo_Picklist__c</field>
 </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SalesDemoField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
