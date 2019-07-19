@@ -1301,6 +1301,12 @@
         <layout>Account-Account Layout</layout>
         <recordType>Account.Jacks_Record_Type</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
@@ -1443,6 +1449,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContactRequest</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>

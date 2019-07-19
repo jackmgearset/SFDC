@@ -1151,11 +1151,7 @@
     <readable>false</readable>
     <field>Account.Account_Demo_Picklist__c</field>
 </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SalesDemoField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
     </layoutAssignments>
@@ -1285,6 +1281,12 @@
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
         <recordType>Account.Jacks_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -1507,6 +1509,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContactRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>

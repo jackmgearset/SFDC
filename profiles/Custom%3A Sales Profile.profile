@@ -136,7 +136,6 @@
         <field>Account.Fax</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Industry</field>
@@ -202,7 +201,6 @@
         <field>Account.SLA__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.ShippingAddress</field>
@@ -1288,6 +1286,12 @@
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -1509,6 +1513,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContactRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>

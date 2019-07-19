@@ -13,14 +13,8 @@
         <apexClass>EmailUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>ChangePasswordController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ChangePasswordControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
+    
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -1196,11 +1190,7 @@
     <readable>false</readable>
     <field>Account.Account_Demo_Picklist__c</field>
 </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.SalesDemoField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -1330,6 +1320,12 @@
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
         <recordType>Account.Jacks_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
@@ -1474,6 +1470,14 @@
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContactRequest</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Individual</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>
@@ -2110,5 +2114,17 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>WorkCalibrationUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageSubscriptions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>Packaging2PromoteVersion</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDataLeakageEvents</name>
     </userPermissions>
 </Profile>
