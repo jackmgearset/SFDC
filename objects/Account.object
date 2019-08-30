@@ -175,56 +175,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Account_Demo_Picklist__c</fullName>
-        <description>Acct Demo</description>
-        <externalId>false</externalId>
-        <label>Account Demo Picklist</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>DemoJam</fullName>
-                    <default>false</default>
-                    <label>DemoJam</label>
-                </value>
-                <value>
-                    <fullName>DemoTest</fullName>
-                    <default>false</default>
-                    <label>DemoTest</label>
-                </value>
-                <value>
-                    <fullName>DemoBlock</fullName>
-                    <default>false</default>
-                    <label>DemoBlock</label>
-                </value>
-                <value>
-                    <fullName>DemoConstrain</fullName>
-                    <default>false</default>
-                    <label>DemoConstrain</label>
-                </value>
-                <value>
-                    <fullName>DemoFlow</fullName>
-                    <default>false</default>
-                    <label>DemoFlow</label>
-                </value>
-                <value>
-                    <fullName>DemoRevert</fullName>
-                    <default>false</default>
-                    <label>DemoRevert</label>
-                </value>
-                <value>
-                    <fullName>DemoHold</fullName>
-                    <default>false</default>
-                    <label>DemoHold</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Active__c</fullName>
         <externalId>false</externalId>
         <label>Active</label>
@@ -422,70 +372,6 @@
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>DiscountPercentage__c</fullName>
-        <externalId>false</externalId>
-        <formula>DiscountRate__c / 100</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>DiscountPercentage</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Harveys_Choices__c</fullName>
-        <externalId>false</externalId>
-        <label>Harveys Choices</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Tottenham</fullName>
-                    <default>false</default>
-                    <label>Tottenham</label>
-                </value>
-                <value>
-                    <fullName>Spurs</fullName>
-                    <default>false</default>
-                    <label>Spurs</label>
-                </value>
-                <value>
-                    <fullName>Arsenal</fullName>
-                    <default>false</default>
-                    <label>Arsenal</label>
-                </value>
-                <value>
-                    <fullName>Gooners</fullName>
-                    <default>false</default>
-                    <label>Gooners</label>
-                </value>
-                <value>
-                    <fullName>Chelsea</fullName>
-                    <default>false</default>
-                    <label>Chelsea</label>
-                </value>
-                <value>
-                    <fullName>West Ham</fullName>
-                    <default>false</default>
-                    <label>West Ham</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>DiscountRate__c</fullName>
-        <externalId>false</externalId>
-        <label>DiscountRate</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Currency</type>
     </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
