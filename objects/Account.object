@@ -373,56 +373,6 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
-    <fields>
-        <fullName>Account_Demo_Picklist__c</fullName>
-        <description>Acct Demo</description>
-        <externalId>false</externalId>
-        <label>Account Demo Picklist</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>DemoJam</fullName>
-                    <default>false</default>
-                    <label>DemoJam</label>
-                </value>
-                <value>
-                    <fullName>DemoTest</fullName>
-                    <default>false</default>
-                    <label>DemoTest</label>
-                </value>
-                <value>
-                    <fullName>DemoBlock</fullName>
-                    <default>false</default>
-                    <label>DemoBlock</label>
-                </value>
-                <value>
-                    <fullName>DemoConstrain</fullName>
-                    <default>false</default>
-                    <label>DemoConstrain</label>
-                </value>
-                <value>
-                    <fullName>DemoFlow</fullName>
-                    <default>false</default>
-                    <label>DemoFlow</label>
-                </value>
-                <value>
-                    <fullName>DemoRevert</fullName>
-                    <default>false</default>
-                    <label>DemoRevert</label>
-                </value>
-                <value>
-                    <fullName>DemoHold</fullName>
-                    <default>false</default>
-                    <label>DemoHold</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
