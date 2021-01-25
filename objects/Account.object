@@ -525,7 +525,7 @@
         <fullName>Democheckbox__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <inlineHelpText>swag me out</inlineHelpText>
+        <inlineHelpText>This is a nonsense checkbox</inlineHelpText>
         <label>Democheckbox</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
