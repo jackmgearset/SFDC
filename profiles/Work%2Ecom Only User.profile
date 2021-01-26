@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <custom>false</custom>
-    <userLicense>Work.com Only</userLicense>
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -81,6 +80,7 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -1459,6 +1459,7 @@
         <tab>standard-Task</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <userLicense>Work.com Only</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>
