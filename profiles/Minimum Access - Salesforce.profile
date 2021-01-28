@@ -194,4 +194,9 @@
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
     </userPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Active_Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
 </Profile>
