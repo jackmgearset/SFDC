@@ -153,6 +153,7 @@
         <fullName>Active_Opportunity__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
+        <inlineHelpText>Sales, you should check this if the opportunity is active.</inlineHelpText>
         <label>Active Opportunity</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
