@@ -129,51 +129,67 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>AlternateText</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>CapturedAngle</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ContentDocumentId</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AttachedToId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ImageClass</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>CaseId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ImageClassObjectType</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Category</fullName>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>ImageViewType</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Description</fullName>
     </fields>
     <fields>
-        <fullName>IsActive</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>ExternalReference</fullName>
     </fields>
     <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Message</fullName>
     </fields>
     <fields>
-        <fullName>Title</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Url</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Priority</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Severity</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Severity</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CreatedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Severity</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CreatedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Category</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Severity</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Priority</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Severity</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
