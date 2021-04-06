@@ -57,6 +57,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -101,130 +115,52 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>AdminEmail</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>AccountId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>AuthCode</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>AuditEmail</fullName>
     </fields>
     <fields>
-        <fullName>ConnectedAppCallbackUrl</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>Comments</fullName>
     </fields>
     <fields>
-        <fullName>ConnectedAppConsumerKey</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>CompanyName</fullName>
     </fields>
     <fields>
-        <fullName>Country</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>Email</fullName>
     </fields>
     <fields>
-        <fullName>DeletedBy</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>GatewayToken</fullName>
     </fields>
     <fields>
-        <fullName>DeletedDate</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>GatewayTokenDetails</fullName>
     </fields>
     <fields>
-        <fullName>Description</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>IpAddress</fullName>
     </fields>
     <fields>
-        <fullName>Edition</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>MacAddress</fullName>
     </fields>
     <fields>
-        <fullName>ErrorCode</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>NickName</fullName>
     </fields>
     <fields>
-        <fullName>ExpirationDate</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Features</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>PaymentGatewayId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Instance</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>Phone</fullName>
     </fields>
     <fields>
-        <fullName>Language</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LastLoginDate</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Namespace</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>OrgName</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Package2AncestorIds</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Release</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ScratchOrg</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>SignupCountry</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>SignupEmail</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>SignupInstance</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>SignupLanguage</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>SignupTrialDays</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>SignupUsername</fullName>
-        <trackHistory>true</trackHistory>
+        <fullName>ProcessingMode</fullName>
     </fields>
     <fields>
         <fullName>Status</fullName>
-        <trackHistory>true</trackHistory>
     </fields>
-    <fields>
-        <fullName>Username</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <listViews>
-        <fullName>All_Scratch_Org_Infos</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Scratch Org Infos</label>
-    </listViews>
-    <listViews>
-        <fullName>My_Scratch_Org_Infos</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Scratch Org Infos</label>
-    </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -15,6 +15,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -53,6 +67,20 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -101,65 +129,67 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>AttachedToId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CaseId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Category</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
-        <trackHistory>true</trackHistory>
     </fields>
     <fields>
-        <fullName>Edition</fullName>
+        <fullName>ExternalReference</fullName>
     </fields>
     <fields>
-        <fullName>ExpirationDate</fullName>
+        <fullName>Message</fullName>
     </fields>
     <fields>
-        <fullName>Features</fullName>
-    </fields>
-    <fields>
-        <fullName>Id</fullName>
+        <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>LastLoginDate</fullName>
+        <fullName>Priority</fullName>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Severity</fullName>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Namespace</fullName>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
     </fields>
-    <fields>
-        <fullName>OrgName</fullName>
-    </fields>
-    <fields>
-        <fullName>ScratchOrg</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ScratchOrgInfoId</fullName>
-        <trackHistory>true</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SignupEmail</fullName>
-    </fields>
-    <fields>
-        <fullName>SignupInstance</fullName>
-    </fields>
-    <fields>
-        <fullName>SignupTrialDays</fullName>
-    </fields>
-    <fields>
-        <fullName>SignupUsername</fullName>
-    </fields>
-    <listViews>
-        <fullName>All_Active_Scratch_Orgs</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Active Scratch Orgs</label>
-    </listViews>
-    <listViews>
-        <fullName>My_Active_Scratch_Orgs</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Active Scratch Orgs</label>
-    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Severity</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CreatedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Severity</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CreatedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Category</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Severity</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Priority</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Severity</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
