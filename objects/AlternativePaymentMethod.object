@@ -15,20 +15,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -129,51 +115,52 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>AlternateText</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>CapturedAngle</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ContentDocumentId</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AccountId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ImageClass</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AuditEmail</fullName>
     </fields>
     <fields>
-        <fullName>ImageClassObjectType</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Comments</fullName>
     </fields>
     <fields>
-        <fullName>ImageViewType</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>CompanyName</fullName>
     </fields>
     <fields>
-        <fullName>IsActive</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Email</fullName>
     </fields>
     <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>GatewayToken</fullName>
     </fields>
     <fields>
-        <fullName>Title</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>GatewayTokenDetails</fullName>
     </fields>
     <fields>
-        <fullName>Url</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>IpAddress</fullName>
     </fields>
-    <searchLayouts>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-    </searchLayouts>
+    <fields>
+        <fullName>MacAddress</fullName>
+    </fields>
+    <fields>
+        <fullName>NickName</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PaymentGatewayId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ProcessingMode</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>
