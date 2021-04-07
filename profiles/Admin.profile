@@ -98,6 +98,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Account_Demo_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Asset.CurrentAmount</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2688,6 +2693,14 @@
         <enabled>true</enabled>
         <name>EditReadonlyFields</name>
     </userPermissions>
+    <classAccesses>
+        <apexClass>ChangePasswordController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ChangePasswordControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <classAccesses>
         <apexClass>EmailUtils</apexClass>
         <enabled>true</enabled>
