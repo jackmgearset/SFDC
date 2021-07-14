@@ -514,6 +514,16 @@
                     <default>false</default>
                     <label>Yes</label>
                 </value>
+                <value>
+                    <fullName>Definitely</fullName>
+                    <default>false</default>
+                    <label>Definitely</label>
+                </value>
+                <value>
+                    <fullName>Potential</fullName>
+                    <default>false</default>
+                    <label>Potential</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
